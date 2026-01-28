@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head></head>
+
+  <body>
+    <h1>Forms in HTML</h1>
+    <form>
+      <!-- <label for="">Username</label> -->
+      <input
+        placeholder="enter username"
+        required
+        minlength="5"
+        maxlength="7"
+      />
+
+      <input type="password" placeholder="password" />
+
+      <input type="button" value="Login" />
+
+      <input type="date" /><br /><br />
+      <input type="time" />
+      <input type="datetime-local" />
+      <br /><br />
+      <div>
+        <input id="male" type="radio" name="gender" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" checked />
+        <label for="">Female</label>
+
+        <input type="radio" name="gender" />
+        <label for="">Other</label>
+      </div>
+      <br /><br />
+
+      <input type="checkbox" checked />
+      <label for="">HTML</label>
+
+      <input type="checkbox" />
+      <label for="">CSS</label>
+
+      <input type="checkbox" />
+      <label for="">JS</label>
+
+      <input type="file" multiple />
+
+      <input type="submit" />
+
+      <input type="reset" />
+
+      <select>
+        <option>Pune</option>
+        <option>Hyderabad</option>
+        <option>Banglore</option>
+        <option>Gurugram</option>
+        <option>Indore</option>
+      </select>
+
+      <select>
+        <optgroup label="Frontend">
+          <option>React</option>
+          <option>Angular</option>
+        </optgroup>
+        <optgroup label="Backend">
+          <option>NodeJS</option>
+          <option>Springboot</option>
+        </optgroup>
+        <optgroup label="Database">
+          <option>Mongodb</option>
+          <option>MYSQL</option>
+        </optgroup>
+      </select>
+
+      <progress value="30" min="0" max="100"></progress>
+
+      <textarea cols="50" rows="10"></textarea>
+    </form>
+
+    <!-- <form>
+            
+           </form>
+
+            <form>
+            
+           </form> -->
+  </body>
+</html>
