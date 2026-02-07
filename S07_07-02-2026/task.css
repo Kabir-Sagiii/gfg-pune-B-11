@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+html {
+  height: 500px;
+  border: 10px solid red;
+  position: relative;
+}
+body {
+  height: 90%;
+  border: 7px solid green;
+}
+div {
+  height: 60%;
+  border: 3px solid blue;
+}
+img {
+  border: 2px solid coral;
+  position: absolute;
+  left: 12px;
+}
