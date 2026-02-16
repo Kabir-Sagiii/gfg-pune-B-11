@@ -1,0 +1,10 @@
+button {
+  padding: 4px 15px;
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+h1 {
+  color: red;
+}
