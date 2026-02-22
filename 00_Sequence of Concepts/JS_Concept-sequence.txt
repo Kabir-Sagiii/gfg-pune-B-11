@@ -1,0 +1,21 @@
+Introduction to JS
+Variables
+Data types
+Functions
+Objects
+Arrays
+Array Methods (50+) : 4
+==============================================
+
+selection statement : if, else, else if, switch
+Loop : while, for, for...in, for...of
+operators (We wont discuss)
+spread, rest, destructuring in JS
+Promises
+==================================================
+
+scopes in JS, Clousers, 
+DOM and DOM Manipulation
+fetch API
+Frontend & Backend Integration
+Architecture of JS Engine, 
