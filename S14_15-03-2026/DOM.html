@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      //JS Code
+      function modifyHeading() {
+        var h1_Dom_Element = document.querySelector("h1");
+        var pDOM = document.querySelector("#para");
+        var imageDom = document.querySelector(".rohit");
+
+        pDOM.style.color = "red";
+        pDOM.style.backgroundColor = "black";
+        pDOM.style.padding = "20px";
+
+        h1_Dom_Element.innerText = "Welcome to JS Web Development";
+
+        imageDom.src =
+          "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200/lsci/db/PICTURES/CMS/348100/348106.jpg";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Document Object Model</h1>
+    <img
+      class="rohit"
+      src="https://cdn.gulte.com/wp-content/uploads/2021/04/Rohitsharma1.jpg"
+      width="300"
+      height="300"
+      alt=""
+    />
+    <p id="para">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates
+      dolore quibusdam eligendi tempore error iure autem, totam impedit est
+      illum aperiam maxime! Minus dolor pariatur alias. Similique, eligendi
+      modi?
+    </p>
+    <button onclick="modifyHeading()">Submit</button>
+  </body>
+</html>
