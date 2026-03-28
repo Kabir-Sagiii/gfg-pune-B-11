@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+
+  <body>
+    <div id="container"></div>
+
+    <script>
+      var h1_ReactElement = React.createElement(
+        "h1",
+        { id: "heading", name: "title", class: "h1" },
+        "Welcome to React JS Journey",
+      );
+
+      ReactDOM.render(h1_ReactElement, document.getElementById("container"));
+    </script>
+  </body>
+</html>
