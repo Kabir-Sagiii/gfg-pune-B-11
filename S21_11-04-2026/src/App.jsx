@@ -2,8 +2,9 @@ import "./App.css";
 import { useState } from "react";
 import Header from "./components/header/Header.jsx";
 import Wrapper from "./components/wrapper/Wrapper.jsx";
+import AuthContext from "./context/AuthContext.js";
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const login = () => {
     setIsLoggedIn(true);
@@ -15,8 +16,10 @@ function App() {
 
   return (
     <div className="app">
-      {isLoggedIn ? <Header /> : null}
-      <Wrapper isLoggedIn={isLoggedIn} />
+      {isLoggedIn ? <Header logout={logout} /> : null}
+      <AuthContext value={login}>
+        <Wrapper isLoggedIn={isLoggedIn} />
+      </AuthContext>
     </div>
   );
 }
