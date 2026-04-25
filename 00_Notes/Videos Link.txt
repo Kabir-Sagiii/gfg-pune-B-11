@@ -24,3 +24,28 @@ https://youtu.be/2UpyWRfigME
 
 https://youtu.be/s0Os0M9xhGE
 
+
+useParams, useSearchParams, ProtectedRoutes
+----------------------------------------------------------------
+https://youtu.be/dBEZdF1zHPc?si=GfwsgvwwzBrUYTYy
+
+
+Lifecycle Methods
+-----------------------
+https://youtu.be/3C2QNdPDIi8?si=1-JooVUwlc3PSIWn
+
+
+Class Components
+==================
+https://youtu.be/r9WXv2s3wQ0?si=J-12pA6yjvclc9WZ
+
+
+React Portals
+--------------
+https://drive.google.com/file/d/1BbgJ3yQpGy27SBS3L7BLun-E6fSlfWjv/view?usp=sharing
+
+
+Error Boundaries
+-----------------------
+https://drive.google.com/file/d/1-Anb4i_3tYx86qkhKIqiSh-BSYYdIoDQ/view?usp=sharing
+
