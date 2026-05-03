@@ -1,0 +1,75 @@
+import { useRef } from "react";
+import "./Signup.css";
+import { Link } from "react-router-dom";
+import { getUserData } from "./signupService";
+
+const Signup = () => {
+  const username = useRef(null);
+  const email = useRef(null);
+  const password = useRef(null);
+  const confirmPassword = useRef(null);
+
+  return (
+    <div className="signup-container">
+      <div className="signup-card">
+        <h2>Sign Up</h2>
+        <form className="signup-form">
+          <div className="form-group">
+            <label htmlFor="name">Full Name</label>
+            <input
+              ref={username}
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input
+              ref={email}
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="password">Password</label>
+            <input
+              ref={password}
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create a password"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="confirmPassword">Confirm Password</label>
+            <input
+              ref={confirmPassword}
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm your password"
+            />
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              getUserData(username, email, password, confirmPassword);
+            }}
+            className="signup-btn"
+          >
+            Sign Up
+          </button>
+        </form>
+        <p className="signin-link">
+          Already have an account? <Link to="/">Sign In</Link>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Signup;

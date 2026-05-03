@@ -6,6 +6,8 @@ const {
   accessData,
 } = require("../model/userModel");
 
+const User = require("../schema/auth.js");
+
 function getAllUsersData(req, res) {
   //connect with database
   const db = connectDatabase("gfg11DB");

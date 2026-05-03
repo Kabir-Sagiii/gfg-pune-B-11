@@ -1,5 +1,6 @@
 // Create & Start a Http Server with Express;
 const express = require("express");
+const mongoose = require("mongoose");
 
 const UserRoute = require("./routes/userRoute");
 
@@ -18,6 +19,14 @@ app.use("/api/orders", OrderRoute);
 
 app.listen(4747, () => {
   console.log("Http Server Started...!!!");
-  connectServer();
+  // connectServer();
+  mongoose
+    .connect("mongodb://localhost:27017/gfg11DB")
+    .then(() => {
+      console.log("connected to server via mongoose");
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 });
 // http://localhost:4747

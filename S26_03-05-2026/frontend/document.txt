@@ -1,0 +1,8 @@
+Extension
+=========
+ES7+ React/Redux/React-Native snippets
+
+
+CommonJS Module Pattern
+========================
+Video : https://youtu.be/LugWGI6DkUU?si=SGY9wJm5-WgumvyF
