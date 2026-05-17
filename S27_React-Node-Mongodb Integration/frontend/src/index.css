@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+.container {
+  padding: 10px;
+}
+.context-color {
+  color: blue;
+}

@@ -1,0 +1,6 @@
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1100px;
+  margin: 50px auto;
+}

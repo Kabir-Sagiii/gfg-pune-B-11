@@ -1,0 +1,53 @@
+.contactus {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contactus h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contactus form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contactus input,
+.contactus textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contactus textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contactus button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactus button:hover {
+  background-color: #0056b3;
+}
